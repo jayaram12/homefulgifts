@@ -7274,6 +7274,68 @@ h3.cart-page-title {
     max-width: 100%;
     max-height: 100%;
 }
+.cart-thum2{
+	width: 80px;
+    display: table-cell;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+    list-style: none;
+    margin: 5px;
+    float: left;
+}
+.cart-thum-body2{
+	display: block;
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    text-align: center;
+    overflow: hidden;
+    border: none;
+    box-shadow: none;
+    position: relative;
+}
+.cart-thum-body2 img{
+	margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.prod-thum{
+	width: 363px;
+    display: table-cell;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+    list-style: none;
+    margin: 5px;
+    float: left;
+}
+.prod-thum-body{
+	display: block;
+    height: 380px;
+    width: 100%;
+    line-height: 380px;
+    text-align: center;
+    overflow: hidden;
+    border: none;
+    box-shadow: none;
+    position: relative;
+}
+.prod-thum-body img{
+	margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
 .coll-area{
 	width: 100%;
     display: table-cell;
@@ -8380,13 +8442,13 @@ h3.cart-page-title {
       padding: 36px 6px 30px; } }
 
 .support-bg-color-1 {
-  background-color: #b8b8b8; }
+  background-color: #c2d3db; }
 
 .support-bg-color-2 {
-  background-color: #ff084e; }
+  background-color: #585a55; }
 
 .support-bg-color-3 {
-  background-color: #272424; }
+  background-color: #81a2a7; }
 .support-pd-lr{padding-left:0px;padding-right:0px}
 .support-wrap-3 .support-content-3 .support-content-sub{color: #ffffff;
     margin: 4px 0 0;
