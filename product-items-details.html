@@ -63,58 +63,30 @@
             </div>
         </div>
     </div> -->
-	<div class="container">
+	<div class="container-fluid">
         <div class="header-top-area">
             <div class="row">
-                <div class="col-lg-5 col-md-8 col-12">
-                    <div class="language-currency-wrap">
-                        <!-- <div class="same-language-currency language-style">
-                            <a href="#">English <i class="fa fa-angle-down"></i></a>
-                            <div class="lang-car-dropdown">
-                                <ul>
-                                    <li><a href="#">Arabic </a></li>
-                                    <li><a href="#">Bangla </a></li>
-                                    <li><a href="#">Hindi  </a></li>
-                                    <li><a href="#">Spanish </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="same-language-currency use-style">
-                            <a href="#">USD  <i class="fa fa-angle-down"></i></a>
-                            <div class="lang-car-dropdown">
-                                <ul>
-                                    <li><a href="#">Taka (BDT) </a></li>
-                                    <li><a href="#">Riyal (SAR) </a></li>
-                                    <li><a href="#">Rupee (INR)  </a></li>
-                                    <li><a href="#">Dirham (AED) </a></li>
-                                </ul>
-                            </div>
-                        </div> -->
-                        <div class="same-language-currency mt-40">
-                            <p>Call Us (800) 323 7799</p>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="col-lg-3 d-none d-lg-block">
-                    <div class="logo-hm9 mb-10  text-center">
+                    <div class="logo-hm9 mb-10  text-left">
                         <a href="index.html">
-                            <img alt="" src="assets/img/logo/logo-3.png">
+                            <img alt="" src="assets/img/logo/logo-4.png">
                         </a>
                     </div>
                 </div>
+				<div class="col-lg-5 col-md-8 col-12">
+				<div class="cart-search search-style">
+					<form action="#">
+					<input type="search" name="search" placeholder="">
+					<img src="assets/images/searchicon.png">
+					</form>
+				</div>
+				</div>
                 <div class="col-lg-4 col-md-4 col-12">
-                    <div class="header-right-wrap mt-30">
-                        <div class="same-style header-search">
-                            <a class="search-active" href="#"><i class="pe-7s-search"></i></a>
-                            <div class="search-content">
-                                <form action="#">
-                                    <input type="text" placeholder="Search" />
-                                    <button class="button-search"><i class="pe-7s-search"></i></button>
-                                </form>
-                            </div> 
-                        </div>
+                    <div class="header-right-wrap">
+                        
                         <div class="same-style account-satting">
-                            <a class="account-satting-active" href="#"><i class="pe-7s-user"></i></a>
+                            <a class="account-satting-active" href="#"><img src="assets/images/account.png"/></a>
                             <div class="account-dropdown">
                                 <ul>
                                     <li><a href="login-register.html">Login</a></li>
@@ -125,12 +97,12 @@
                             </div>
                         </div>
                         <div class="same-style header-wishlist">
-                            <a href="wishlist.html"><i class="pe-7s-like"></i></a>
+                            <a href="wishlist.html"><img src="assets/images/wishlist.png"/></a>
                         </div>
                         <div class="same-style cart-wrap">
                             <button class="icon-cart">
-                                <i class="pe-7s-cart"></i>
-                                <span class="count-style">02</span>
+                                <img src="assets/images/cart.png"/>
+                                <span class="count-style">2</span>
                             </button>
                             <div class="shopping-cart-content">
                                 <ul>
@@ -170,12 +142,11 @@
                                     </li>
                                 </ul>
                                 <div class="shopping-cart-total">
-                                    <h4>Shipping : <span>$20.00</span></h4>
+                                    <h4>Shipping : <span>$0.00</span></h4>
                                     <h4>Total : <span class="shop-total">$260.00</span></h4>
                                 </div>
                                 <div class="shopping-cart-btn btn-hover text-center">
-                                    <a class="default-btn" href="cart-page.html">view cart</a>
-                                    <a class="default-btn" href="checkout.html">checkout</a>
+                                    <a class="default-btn" href="cart.html">view cart</a>
                                 </div>
                             </div>
                         </div>
@@ -188,6 +159,9 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-12 col-lg-12 d-none d-lg-block">
+				<!-- <div class="clickable-menu clickable-mainmenu-active">
+                        <a href="#"><i class="pe-7s-menu"></i></a>
+                    </div> -->
                     <div class="main-menu">
                         <nav>
                             <ul>
@@ -255,7 +229,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="index.html">VLD <i class="fa fa-angle-down"></i></a>
+                                <!-- <li><a href="index.html">VLD <i class="fa fa-angle-down"></i></a>
                                     <ul class="submenu">
                                         <li><a href="">Fashion</a></li>
                                         <li><a href="">Handbags</a></li>
@@ -264,7 +238,7 @@
 										<li><a href="">Misc</a></li>
 										<li><a href="">Accessories</a></li>
                                     </ul>
-                                </li>
+                                </li> -->
 								<li><a href="index.html">Personalization <i class="fa fa-angle-down"></i></a>
                                     <ul class="submenu">
                                         <li><a href="">Pet/Child</a></li>
@@ -276,19 +250,24 @@
 										<li><a href="">Nautical</a></li>
                                     </ul>
                                 </li>
-								<li><a href="index.html">Brands <i class="fa fa-angle-down"></i></a>
+								<li><a href="index.html">Outdoor <i class="fa fa-angle-down"></i></a>
                                     <ul class="submenu">
-                                        <li><a href="">Paula Deen</a></li>
-                                        <li><a href="">Coca Cola</a></li>
+                                        <li><a href="">Garden Room Decor</a></li>
+                                        <li><a href="">Garden Decor</a></li>
                                     </ul>
                                 </li>
-                                
+                                <li><a href="index.html">Sale </a>
+                                    <!-- <ul class="submenu">
+                                        <li><a href="">Paula Deen</a></li>
+                                        <li><a href="">Coca Cola</a></li>
+                                    </ul> -->
+                                </li>
                                 
                             </ul>
                         </nav>
                     </div>
                 </div>
-                
+
             </div>
             <div class="mobile-menu-area">
                 <div class="mobile-menu">
@@ -370,7 +349,7 @@
 </header>
 <div class="breadcrumb-area pt-15 pb-15 bg-gray-3">
     <div class="container">
-      <div class="breadcrumb-content text-center">
+      <div class="breadcrumb-content text-left">
           <ul>
               <li>
                   <a href="index.html">Home</a>
@@ -393,43 +372,43 @@
               <div class="product-details-img">
                   <div class="tab-content jump">
                       <div id="shop-details-1" class="tab-pane active large-img-style">
-                          <img src="assets/img/hm18-pro-11.jpg" alt="">
+                          <img src="assets/images/20706_mugs.png" alt="">
                           <span class="dec-price">-10%</span>
                           <div class="img-popup-wrap">
-                              <a class="img-popup" href="assets/img/hm18-pro-11.jpg"><i class="pe-7s-expand1"></i></a>
+                              <a class="img-popup" href="assets/images/20706_mugs.png"><i class="pe-7s-expand1"></i></a>
                           </div>
                       </div>
                       <div id="shop-details-2" class="tab-pane large-img-style">
-                          <img src="assets/img/hm18-pro-11.jpg" alt="">
+                          <img src="assets/images/20706_mugs.png" alt="">
                           <span class="dec-price">-10%</span>
                           <div class="img-popup-wrap">
-                              <a class="img-popup" href="assets/img/hm18-pro-11.jpg"><i class="pe-7s-expand1"></i></a>
+                              <a class="img-popup" href="assets/images/20706_mugs.png"><i class="pe-7s-expand1"></i></a>
                           </div>
                       </div>
                       <div id="shop-details-3" class="tab-pane large-img-style">
-                          <img src="assets/img/hm18-pro-11.jpg" alt="">
+                          <img src="assets/images/20706_mugs.png" alt="">
                           <span class="dec-price">-10%</span>
                           <div class="img-popup-wrap">
-                              <a class="img-popup" href="assets/img/hm18-pro-11.jpg"><i class="pe-7s-expand1"></i></a>
+                              <a class="img-popup" href="assets/images/20706_mugs.png"><i class="pe-7s-expand1"></i></a>
                           </div>
                       </div>
                   </div>
                   <div class="shop-details-tab nav">
                       <a class="shop-details-overly active" href="#shop-details-1" data-toggle="tab">
-                          <img src="assets/img/hm18-pro-11.jpg" alt="">
+                          <img src="assets/images/20706_mugs.png" alt="">
                       </a>
                       <a class="shop-details-overly" href="#shop-details-2" data-toggle="tab">
-                          <img src="assets/img/hm18-pro-11.jpg" alt="">
+                          <img src="assets/images/20706_mugs.png" alt="">
                       </a>
                       <a class="shop-details-overly" href="#shop-details-3" data-toggle="tab">
-                          <img src="assets/img/hm18-pro-11.jpg" alt="">
+                          <img src="assets/images/20706_mugs.png" alt="">
                       </a>
                   </div>
               </div>
             </div>
             <div class="col-lg-5 col-lg-5 col-md-12">
                 <div class="product-details-content">
-                    <h2><strong>17096</strong> - Wood Farm House 3 Assorted</h2>
+                    <h2><strong>20706</strong> - Stoneware Pressed Floral Mugs, 4 Ast</h2>
                     <div class="product-details-price">
                         <span>$12.00 </span>
                         <span class="old">$18.00 </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -460,10 +439,10 @@
                     </div>
                     <div class="pro-details-desc">
                         <ul>
-                            <li>- Wood farm house that comes in 3 assortments</li>
-                            <li>- Full graphic text (sign 1): Mind your own biscuits and life will be gravy</li>
-                            <li>- Full graphic text (sign 2): Bless nest  </li>
-							<li>- Full graphic text (sign 3): Farm sweet farm</li>
+                            <li>- Stoneware Mugs</li>
+                            <li>- 4 Set Pieces</li>
+                            <li>- Full graphic images  </li>
+							<li>- Full graphic colors</li>
                         </ul>
                     </div>
 
@@ -471,7 +450,7 @@
                     <div class="pro-details-meta">
                         <span>Categories :</span>
                         <ul>
-                            <li><a href="#">Minimal,</a></li>
+                            <li><a href="#">Coffee,</a></li>
                             <li><a href="#">Decor,</a></li>
                         </ul>
                     </div>
@@ -637,7 +616,7 @@
             <div class="product-wrap">
                 <div class="product-img">
                   <a href="#">
-                      <img class="default-img" src="assets/img/hm18-pro-2.jpg" alt="">
+                      <img class="default-img" src="assets/images/20706_mugs.png" alt="">
                   </a>
                     <span class="pink">-10%</span>
                     <div class="product-action">
@@ -653,8 +632,8 @@
                     </div>
                 </div>
                 <div class="product-content text-center">
-                    <h3><a href="product-details.html"><b>17270</b></a></h3>
-                    <h3><a href="product-details.html">Wood Tin Porch Welcome Sign</a></h3>
+                    <h3><a href="product-details.html"><b>20706</b></a></h3>
+                    <h3><a href="product-details.html">STONEWARE PRESSED FLORAL MUGS, 4 AST</a></h3>
                     <div class="product-rating">
                         <i class="fa fa-star-o yellow"></i>
                         <i class="fa fa-star-o yellow"></i>
@@ -671,7 +650,7 @@
             <div class="product-wrap">
                 <div class="product-img">
                   <a href="#">
-                      <img class="default-img" src="assets/img/hm18-pro-3.jpg" alt="">
+                      <img class="default-img" src="assets/images/20005_baskets.png" alt="">
                   </a>
                     <span class="purple">New</span>
                     <div class="product-action">
@@ -687,8 +666,8 @@
                     </div>
                 </div>
                 <div class="product-content text-center">
-                    <h3><a href="product-details.html"><b>58059</b></a></h3>
-                    <h3><a href="product-details.html">Honey Pot W/ Wooden Dipper</a></h3>
+                    <h3><a href="product-details.html"><b>20005</b></a></h3>
+                    <h3><a href="product-details.html">FELT BASKETS, 3 PCS/SET</a></h3>
                     <div class="product-rating">
                         <i class="fa fa-star-o yellow"></i>
                         <i class="fa fa-star-o yellow"></i>
@@ -704,7 +683,7 @@
             <div class="product-wrap">
                 <div class="product-img">
                   <a href="single-product.html">
-                      <img class="default-img" src="assets/img/hm18-pro-4.jpg" alt="">
+                      <img class="default-img" src="assets/images/20456_stoneware.png" alt="">
                   </a>
                     <span class="pink">-10%</span>
                     <div class="product-action">
@@ -720,8 +699,8 @@
                     </div>
                 </div>
                 <div class="product-content text-center">
-                    <h3><a href="product-details.html"><b>37242</b></a></h3>
-                    <h3><a href="product-details.html">Wood Beach Soul Wall Plaque</a></h3>
+                    <h3><a href="product-details.html"><b>20456</b></a></h3>
+                    <h3><a href="product-details.html">STONEWARE HAND STAMPED POTTERY: HEART DISH</a></h3>
                     <div class="product-rating">
                         <i class="fa fa-star-o yellow"></i>
                         <i class="fa fa-star-o yellow"></i>
@@ -737,7 +716,7 @@
             <div class="product-wrap">
                 <div class="product-img">
                   <a href="#">
-                      <img class="default-img" src="assets/img/hm18-pro-5.jpg" alt="">
+                      <img class="default-img" src="assets/images/70250_planters.png" alt="">
                   </a>
                     <span class="purple">New</span>
                     <div class="product-action">
@@ -753,8 +732,8 @@
                     </div>
                 </div>
                 <div class="product-content text-center">
-                    <h3><a href="product-details.html"><b>38105</b></a></h3>
-                    <h3><a href="product-details.html">Ceramic Cookie Jar</a></h3>
+                    <h3><a href="product-details.html"><b>70250</b></a></h3>
+                    <h3><a href="product-details.html">CERAMIC POCKET DECAL PLANTER</a></h3>
                     <div class="product-rating">
                         <i class="fa fa-star-o yellow"></i>
                         <i class="fa fa-star-o yellow"></i>
@@ -771,7 +750,7 @@
             <div class="product-wrap">
                 <div class="product-img">
                   <a href="#">
-                      <img class="default-img" src="assets/img/hm18-pro-6.jpg" alt="">
+                      <img class="default-img" src="assets/images/20690_botanicals.png" alt="">
                   </a>
                     <span class="pink">-10%</span>
                     <div class="product-action">
@@ -787,8 +766,8 @@
                     </div>
                 </div>
                 <div class="product-content text-center">
-                    <h3><a href="product-details.html"><b>18547</b></a></h3>
-                    <h3><a href="product-details.html">Wood Bee Tray</a></h3>
+                    <h3><a href="product-details.html"><b>20690</b></a></h3>
+                    <h3><a href="product-details.html">WOOD TABLETOP BOTANICAL 4X6 PICTURE FRAME, 2 ASSORTED</a></h3>
                     <div class="product-rating">
                         <i class="fa fa-star-o yellow"></i>
                         <i class="fa fa-star-o yellow"></i>
@@ -804,7 +783,7 @@
             <div class="product-wrap">
                 <div class="product-img">
                   <a href="#">
-                      <img class="default-img" src="assets/img/hm18-pro-7.jpg" alt="">
+                      <img class="default-img" src="assets/images/rugs.png" alt="">
                   </a>
                     <span class="pink">-10%</span>
                     <div class="product-action">
@@ -820,8 +799,8 @@
                     </div>
                 </div>
                 <div class="product-content text-center">
-                    <h3><a href="product-details.html"><b>15656</b></a></h3>
-                    <h3><a href="product-details.html">Ceramic Mason Jar S/P set</a></h3>
+                    <h3><a href="product-details.html"><b>20220</b></a></h3>
+                    <h3><a href="product-details.html">COTTON HAND WOVEN 24X36 BLUE & WHITE RUG</a></h3>
                     <div class="product-rating">
                         <i class="fa fa-star-o yellow"></i>
                         <i class="fa fa-star-o yellow"></i>
@@ -837,7 +816,7 @@
             <div class="product-wrap">
                 <div class="product-img">
                   <a href="#">
-                      <img class="default-img" src="assets/img/hm18-pro-8.jpg" alt="">
+                      <img class="default-img" src="assets/images/29616_journals.png" alt="">
                   </a>
                     <span class="pink">-10%</span>
                     <div class="product-action">
@@ -853,8 +832,8 @@
                     </div>
                 </div>
                 <div class="product-content text-center">
-                    <h3><a href="product-details.html"><b>18434</b></a></h3>
-                    <h3><a href="product-details.html">Ceramic Cat Meow Mug</a></h3>
+                    <h3><a href="product-details.html"><b>20479</b></a></h3>
+                    <h3><a href="product-details.html">PAPER 5X7 NOTEBOOKS, 3 PCS/SET</a></h3>
                     <div class="product-rating">
                         <i class="fa fa-star-o yellow"></i>
                         <i class="fa fa-star-o yellow"></i>
