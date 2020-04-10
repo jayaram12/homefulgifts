@@ -9,8 +9,15 @@
 
     /* Cart dropdown */
     var iconCart = $('.icon-cart');
-    iconCart.on('click', function() {
+    var hideCart = $('.cart-wrap');
+    iconCart.on('mouseover', function() {
         $('.shopping-cart-content').toggleClass('cart-visible');
+    })
+    hideCart.on('mouseleave', function() {
+        $('.shopping-cart-content').toggleClass('cart-visible');
+    })
+    iconCart.on('click', function() {
+        location.href="cart.html";
     })
 
     /* Slider active */

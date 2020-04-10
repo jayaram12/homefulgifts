@@ -9,19 +9,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
-    
+
     <!-- CSS
 	============================================ -->
-   
-	<!-- Bootstrap CSS -->
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Icon Font CSS -->
     <link rel="stylesheet" href="assets/css/icons.min.css">
-    <!-- google font -->
-    <link rel="stylesheet" href="assets/css/fonts.css">
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="assets/css/plugins.css">
     <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style_pers.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Modernizer JS -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
@@ -68,7 +67,7 @@
 	<div class="container-fluid">
         <div class="header-top-area">
             <div class="row">
-                
+
                 <div class="col-lg-3 d-none d-lg-block">
                     <div class="logo-hm9 mb-10  text-left">
                         <a href="index.html">
@@ -86,7 +85,7 @@
 				</div>
                 <div class="col-lg-4 col-md-4 col-12">
                     <div class="header-right-wrap">
-                        
+
                         <div class="same-style account-satting">
                             <a class="account-satting-active" href="#"><img src="assets/images/account.png"/></a>
                             <div class="account-dropdown">
@@ -110,9 +109,9 @@
                                 <ul>
                                     <li class="single-shopping-cart">
                                         <div class="shopping-cart-img">
-											<div class="cart-thum2">
-												<div class="cart-thum-body2">
-													<a href="#"><img alt="" src="assets/img/product/hm18-pro-11.jpg"></a>
+											<div class="cart-thum3">
+												<div class="cart-thum-body3">
+													<a href="cart.html"><img alt="" src="assets/img/product/hm18-pro-11.jpg"></a>
 												</div>
 											</div>
                                         </div>
@@ -125,8 +124,8 @@
                                     </li>
                                     <li class="single-shopping-cart">
                                         <div class="shopping-cart-img">
-											<div class="cart-thum2">
-												<div class="cart-thum-body2">
+											<div class="cart-thum3">
+												<div class="cart-thum-body3">
 													<a href="#"><img alt="" src="assets/img/product/hm18-pro-2.jpg"></a>
 												</div>
 											</div>
@@ -208,7 +207,7 @@
 												<li><a href="">Religious</a></li>
 												<li><a href="">Cabin/Lodge Christmas</a></li>
 												<li><a href="">Country Christmas</a></li>
-												
+
                                             </ul>
                                         </li>
                                         <li>
@@ -260,7 +259,7 @@
                                         <li><a href="">Coca Cola</a></li>
                                     </ul> -->
                                 </li>
-                                
+
                             </ul>
                         </nav>
                     </div>
@@ -347,150 +346,242 @@
 </header>
 <div class="breadcrumb-area pt-15 pb-15 bg-gray-3">
     <div class="container">
-		<div class="row">
-			<div class="col-lg-6">
-				<div class="breadcrumb-content text-left mt-10">
-					<ul>
-						<li>
-							<a href="index.html">Home</a>
-						</li>
-						<li class="active">Wishlist </li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-lg-5">
-				<div class="cart-search cart-search-pg">
-					<form action="#">
-					<input type="search" name="search" placeholder="">
-					<button type="submit">Search</button>
-					</form>
-				</div>
-			</div>
-			<div class="col-lg-1">
-			<div class="shop-top-bar pull-right mt-10">
-				<div class="shop-tab nav shop-tab-icon">
-                      <!-- <a href="#" class="clickable-mainmenu-active" id="SideFilterHideShow">
-                          <i class="fa fa-filter"></i>
-                      </a> -->
-                        <a class="active" href="#shop-1" data-toggle="tab">
-                            <i class="fa fa-table"></i>
-                        </a>
-                        <a href="#shop-2" data-toggle="tab">
-                            <i class="fa fa-list-ul"></i>
-                        </a>
-                    </div>
-					</div>
-			</div>
-		</div>
-	</div>
+        <div class="breadcrumb-content text-left">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+				<li>
+                    <a href="index.html">Shopping Cart</a>
+                </li>
+                <li class="active">Finalize Order </li>
+            </ul>
+        </div>
+    </div>
 </div>
-<div class="cart-main-area pt-20 pb-100">
+<div class="checkout-area pt-55 pb-100">
     <div class="container">
-		
+		<!-- <div class="row">
+			<div class="col-lg-4">
+				<div class="address-area">
+					<div class="address-title">
+						<h3>Billing Address</h3>
+					</div>
+					<div class="address-sub-title">
+						<h4>Billing Address</h4>
+					</div>
+					<div class="addres-content">
+						<div class="add-icon">
+							<i class="fa fa-map-marker"></i>
+						</div>
+						<div class="add-text">
+							<p>Test address1,Test2, </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                <form action="#">
-                    <div class="table-content table-responsive cart-table-content">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Image</th>
-									<th>Item#</th>
-                                    <th>Product Name</th>
-                                    <th>Unit Price</th>
-                                    <th>Qty</th>
-                                    <th>Subtotal</th>
-                                    <th>action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="product-thumbnail">
-										<div class="cart-thum">
-											<div class="cart-thum-body">
-												 <a href="#"><img src="assets/images/20706_mugs.png" alt=""></a>
-											</div>
-										</div>
-                                    </td>
-									<td>20706</td>
-                                    <td class="product-name"><a href="#">Stoneware Pressed Floral Mugs, 4 ASst</a></td>
-                                    <td class="product-price-cart"><span class="amount">$5.00</span></td>
-                                    <td class="product-quantity cart-product-qty">
-                                        <div class="cart-plus-minus">
-                                            <input class="cart-plus-minus-box" type="text" name="qtybutton" value="2">
-											<a href="#"><i class="fa fa-refresh"></i></a>
-                                        </div>
-                                    </td>
-                                    <td class="product-subtotal">$10.00</td>
-                                    <td class="product-remove">
-                                        <a href="#"><i class="fa fa-cart-plus"></i></a>
-										<a href="#"><i class="fa fa-trash"></i></a>
-                                   </td>
-                                </tr>
-								<tr>
-                                    <td class="product-thumbnail">
-										<div class="cart-thum">
-											<div class="cart-thum-body">
-												 <a href="#"><img src="assets/images/20005_baskets.png" alt=""></a>
-											</div>
-										</div>
-                                    </td>
-									<td>20005</td>
-                                    <td class="product-name"><a href="#">Felt Baskets, 3 pcs/set</a></td>
-                                    <td class="product-price-cart"><span class="amount">$6.00</span></td>
-                                    <td class="product-quantity  cart-product-qty">
-                                        <div class="cart-plus-minus">
-                                            <input class="cart-plus-minus-box" type="text" name="qtybutton" value="2">
-											<a href="#"><i class="fa fa-refresh"></i></a>
-                                        </div>
-                                    </td>
-                                    <td class="product-subtotal">$12.00</td>
-                                    <td class="product-remove">
-                                        <a href="#"><i class="fa fa-cart-plus"></i></a>
-										<a href="#"><i class="fa fa-trash"></i></a>
-                                   </td>
-                                </tr>
-								<tr>
-                                    <td class="product-thumbnail">
-										<div class="cart-thum">
-											<div class="cart-thum-body">
-												 <a href="#"><img src="assets/images/20456_stoneware.png" alt=""></a>
-											</div>
-										</div>
-                                    </td>
-									<td>20456</td>
-                                    <td class="product-name"><a href="#">Stoneware Hand Stamped Pottery: Heart Dish</a></td>
-                                    <td class="product-price-cart"><span class="amount">$3.00</span></td>
-                                    <td class="product-quantity cart-product-qty">
-                                        <div class="cart-plus-minus">
-                                            <input class="cart-plus-minus-box" type="text" name="qtybutton" value="2">
-											<a href="#"><i class="fa fa-refresh"></i></a>
-                                        </div>
-                                    </td>
-                                    <td class="product-subtotal">$6.00</td>
-                                    <td class="product-remove">
-                                        <a href="#"><i class="fa fa-cart-plus"></i></a>
-										<a href="#"><i class="fa fa-trash"></i></a>
-                                   </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="cart-shiping-update-wrapper">
-                                <div class="cart-shiping-update">
-                                    <a href="#">Continue Shopping</a>
+            <div class="col-lg-7">
+                <div class="billing-info-wrap payment-area">
+                  <div class="address-title">
+                    <h3 class="title-1">Payment Methods</h3>
+                  </div>
+                        <div class="payment-options">
+                          <div class="cards-list">
+                            <p>We accept following credit cards:&nbsp;&nbsp;<img class="d-inline-block align-middle" src="assets/images/cards.png" style="width: 187px;" alt="Cerdit Cards"></p>
+                          </div>
+                          <div class="cards-list">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td width="50">
+                                          <label>
+                                            <input type="radio" class="option-input radio" name="example" checked/>
+                                          </label>
+                                        </td>
+                                        <td width="200">
+                                            <h4>XXXX XXXX XXXX 5608</h4>
+                                            <span>Doniel</span><span class="exp">02/24</span>
+                                            <div class="form-group mt-10">
+                        										     <input type="number" class="form-control" id="cvv" placeholder="CVV" style="width:100px;">
+                        									  </div>
+                                        </td>
+                                        <td><img src="assets/images/visa.png"/></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td width="50">
+                                          <label>
+                                            <input type="radio" class="option-input radio" name="example"/>
+                                          </label>
+                                        </td>
+                                        <td width="200">
+                                            <h4>XXXX XXXX XXXX 1216</h4>
+                                        </td>
+                                        <td><img src="assets/images/paypal_2.png"/></td>
+                                        <td class="product-remove" width="80">
+                                            <a href="#" class="pull-right"><i class="fa fa-trash"></i></a>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="50">
+                                          <label>
+                                            <input type="radio" class="option-input radio" name="example"/>
+                                          </label>
+                                        </td>
+                                        <td width="200">
+                                            <h4>XXXX X  XXX XXXX 2905</h4>
+                                        </td>
+                                        <td><img src="assets/images/americaexpress.png"/></td>
+                                        <td class="product-remove" width="80">
+                                            <a href="#" class="pull-right"><i class="fa fa-trash"></i></a>
+                                       </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="cust-btn-2 address-add-btn">
+                                <a class="" type="submit" id="AddNewCard">Add New Card</a>
+                      			</div>
+
+                          </div>
+                          <div class="cards-list" id="NewCard">
+                            <h4>Enter Card Details</h4>
+                              <form class="mt-10">
+                                <div class="col-lg-6 pull-left">
+                                    <div class="form-group">
+                                      <input type="number" class="form-control" id="cardnumber" placeholder="Card Number">
+                                    </div>
                                 </div>
-                                <div class="cart-clear">
-                                    <button>Add All Items to Cart</button>
-                                    <a href="#">Clear Wishlist</a>
+                                <div class="col-lg-6 pull-left">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control" id="fullname" placeholder="Full Name">
+                                    </div>
                                 </div>
-                            </div>
+                                <div class="col-lg-3 pull-left">
+                                    <div class="form-group">
+                                      <input type="email" class="form-control" id="expirydate" placeholder="MM/YY">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 pull-left">
+                                    <div class="form-group">
+                                        <input type="number" class="form-control" id="cvv2" placeholder="CVV">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 pull-left">
+              										<div class="cust-btn">
+              										<a class="btn-hover" href="#" id="CardAdded">Add New Card</a>
+              									  </div>
+              									</div>
+                              </form>
+                          </div>
                         </div>
+						  <!-- <div class="col">
+							<div class="tabs">
+							  <div class="tab">
+								<input type="radio" class="radio" id="rd1" name="rd">
+								<label class="tab-label" for="rd1">Payment with Credit Card</label>
+								<div class="tab-content">
+								  <div class="row">
+									<div class="col-lg-12">
+										<p>We accept following credit cards:&nbsp;&nbsp;<img class="d-inline-block align-middle" src="assets/images/cards.png" style="width: 187px;" alt="Cerdit Cards"></p>
+									</div>
+									</div>
+									<div class="row  mt-30">
+
+
+									<div class="col-lg-3">
+
+									</div>
+									<div class="col-lg-3">
+
+									</div>
+									<div class="col-lg-6">
+										<div class="cust-btn">
+										<a class="btn-hover" href="#">Submit</a>
+									  </div>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							  <div class="tab">
+								<input type="radio" class="radio" id="rd2" name="rd">
+								<label class="tab-label" for="rd2">Pay with Paypal</label>
+								<div class="tab-content">
+								 <div class="row  mt-10">
+
+									<div class="col-lg-6">
+										<div class="form-group">
+										<input type="email" class="form-control" id="email" placeholder="Email">
+									  </div>
+									</div>
+									<div class="col-lg-6">
+										<div class="form-group">
+										<input type="email" class="form-control" id="email" placeholder="Password">
+									  </div>
+									</div>
+									<div class="col-lg-6">
+										<a class="forgot" href="">Forgot Password</a>
+									</div>
+									<div class="col-lg-6">
+										<div class="cust-btn">
+										<a class="btn-hover" href="#">Login</a>
+									  </div>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+						  </div>
+						</div> -->
+            </div>
+          </div>
+            <div class="col-lg-5">
+                <div class="your-order-area">
+                  <div class="address-title">
+                    <h3 class="title-1">Order Summery</h3>
+                  </div>
+                    <div class="your-order-wrap gray-bg-4">
+                        <div class="your-order-product-info">
+                          <table>
+                              <thead>
+                                  <tr>
+                                      <th width="270">Product</th>
+                                      <th width="90">Qty</th>
+                                      <th>Price</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <td><span class="order-middle-left">Stoneware Pressed Floral</span></td>
+                                      <td><span class="order-middle-left text-center">1</span></td>
+                                      <td><span class="order-price">$10 </span></td>
+                                  </tr>
+                                  <tr>
+                                      <td><span class="order-middle-left">Felt Baskets, 3 pcs/set</span></td>
+                                      <td><span class="order-middle-left text-center">1</span></td>
+                                      <td><span class="order-price">$12 </span></td>
+                                  </tr>
+                                  <tr>
+                                      <td class="order-total" width="270">Shipping Charges</td>
+                                      <td></td>
+                                      <td class="order-total">$5.00</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="order-total"><b>Total</b></td>
+                                      <td width="90"></td>
+                                      <td class="order-total"><b>$27.00</b></td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                        </div>
+
                     </div>
-                </form>
-                
+                    <div class="Place-order mt-25">
+                        <a class="btn-hover" href="thankyou.html">Make Payment & Finalize Order</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -502,7 +593,7 @@
                 <div class="copyright mb-30">
                     <div class="footer-logo">
                         <a href="index.html">
-                            <img alt="" src="assets/img/logo/logo-4.png">
+                            <img alt="" src="assets/img/logo-4.png">
                         </a>
                     </div>
                     <p>© 2020 <a href="#">Homeful Gifts</a>.<br> All Rights Reserved</p>
@@ -531,7 +622,7 @@
                     <div class="footer-list">
                         <ul>
                             <li><a href="#">Returns</a></li>
-                            <li><a href="#">Terms &amp; Conditions</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
                             <li><a href="#">FAQs</a></li>
                         </ul>
                     </div>
@@ -585,8 +676,6 @@
 
 
 
-
-
 <!-- JS
 ============================================ -->
 
@@ -603,6 +692,20 @@
 <!-- Main JS -->
 <script src="assets/js/main.js"></script>
 
+<script>
+    $(document).ready(function(){
+      $("#NewCard").hide();
+        $("#AddNewCard").click(function(){
+            $("#NewCard").show('slow');
+            $("#AddNewCard").hide();
+        });
+        $("#CardAdded").click(function(){
+            $("#NewCard").hide('slow');
+            $("#AddNewCard").show();
+        });
+    });
+</script>
+
 </body>
 
-</html>
+</html
