@@ -77,7 +77,7 @@
 				<div class="col-lg-5 col-md-8 col-12">
 				<div class="cart-search search-style">
 					<form action="#">
-					<input type="search" name="search" placeholder="">
+					<input type="search" name="search" placeholder="Search...">
 					<img src="assets/images/searchicon.png">
 					</form>
 				</div>
@@ -364,7 +364,7 @@
 </div>
 <div class="checkout-area pt-55 pb-100">
     <div class="container">
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-lg-12">
 				<div class="check-tab">
 					<div class="check-tab-block text-center">
@@ -386,12 +386,53 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<div class="row">
 			<div class="col-lg-4">
 				<div class="address-area mb-40">
 					<div class="address-title">
-						<h3>Billing Address</h3>
+						<h3 class="title-1">Recommended Address 
+						<span class="pull-right"><i class="fa fa-pencil"></i></span>
+						<span class="pull-right"><i class="fa fa-pencil-square-o"></i></span> 
+						<span class="pull-right"><i class="fa fa-plus-square"></i></span>
+						
+						</h3>
+					</div>
+					<div class="">
+						<div class="address-sub-title">
+							<h4>Doniel</h4>
+						</div>
+						<div class="addres-content">
+							<div class="add-icon">
+								<i class="fa fa-map-marker"></i>
+							</div>
+							<div class="add-text">
+								<p>PO Box 1455073 Ann Arbor Rd Dundee, MI 48131</p>
+							</div>
+						</div>
+						<div class="addres-content">
+							<div class="add-icon">
+								<i class="fa fa-phone"></i>
+							</div>
+							<div class="add-text">
+								<p>8340-345-4455 </p>
+							</div>
+						</div>
+						<div class="addres-content">
+							<div class="add-icon">
+								<i class="fa fa-envelope"></i>
+							</div>
+							<div class="add-text">
+								<p>doniel@yahoo.com</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="address-area mb-40">
+					<div class="address-title">
+						<h3 class="title-1">Billing Address</h3>
 					</div>
 					<div class="address-sub-title">
 						<h4>Doniel</h4>
@@ -425,7 +466,7 @@
 			<div class="col-lg-4">
 				<div class="address-area mb-40">
 					<div class="address-title">
-						<h3>Shipping Address</h3>
+						<h3 class="title-1">Shipping Address</h3>
 					</div>
 					<div class="address-sub-title">
 						<h4>Doniel</h4>
@@ -456,16 +497,22 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4">
+			<!-- <div class="col-lg-4">
 				<div class="address-add mb-40">
 					<div class="address-title">
 						<h3>Add New Address</h3>
 					</div>
 					<img src="assets/images/plus.png">
 				</div>
+			</div> -->
+		</div>
+		<div class="row">
+            <div class="col-lg-12">
+			<div class="cust-btn-2 pull-right address-add-btn">
+                                    <a class="" type="submit">Add New Address</a>
+									</div>
 			</div>
 		</div>
-
         <div class="row">
             <div class="col-lg-8">
                 <div class="billing-info-wrap">
@@ -668,57 +715,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="your-order-area">
-                    <h3>Order Summary</h3>
-                    <div class="your-order-wrap gray-bg-4">
-                        <div class="your-order-product-info">
-                            <div class="your-order-top">
-                                <ul>
-                                    <li>Product</li>
-                                    <li>Total</li>
-                                </ul>
-                            </div>
-                            <div class="your-order-middle">
-                                <ul>
-                                    <li><span class="order-middle-left">Stoneware Pressed Floral</span> <span class="order-price">$10 </span></li>
-                                    <li><span class="order-middle-left">Felt Baskets, 3 pcs/set</span> <span class="order-price">$12 </span></li>
-                                </ul>
-                            </div>
-                            <!-- <div class="your-order-bottom">
-                                <ul>
-                                    <li class="your-order-shipping">Shipping</li>
-                                    <li>Free shipping</li>
-                                </ul>
-                            </div> -->
-                            <div class="your-order-total">
-                                <ul>
-                                    <li class="order-total">Total</li>
-                                    <li>$22</li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="Place-order mt-25">
-                        <a class="btn-hover" href="payment.html">Proceed to Payment</a>
-                    </div>
-					<div class="promoocde mt-50">
-						<div class="row">
-							<div class="col-lg-12">
-										<div class="form-group">
-										<input type="email" class="form-control" id="email" placeholder="Promot Code">
-									  </div>
-									</div>
-							<div class="col-lg-12">
-										<div class="cust-btn">
-										<a class="btn-hover" href="#">Apply Promo Code</a>
-									  </div>
-									</div>
-						</div>
-					</div>
-                </div>
-            </div>
+            
         </div>
     </div>
 </div>
@@ -830,7 +827,7 @@
 <script>
 $(document).ready(function(){
 $(".billing-info-wrap").hide();
-  $(".address-add").click(function(){
+  $(".address-add-btn").click(function(){
     $(".billing-info-wrap").toggle(500);
   });
 });

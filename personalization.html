@@ -434,24 +434,22 @@
                             <div class="row">
                                 <div class="col-xl-3 col-md-6 col-lg-6 col-sm-6">
                                     <div class="product-wrap mb-25 scroll-zoom">
-                                        <div class="product-img">
-                                            <a href="product-details.html">
-                                                <img class="default-img" src="assets/images/37193.jpg" alt="">
-                                            </a>
-                                            <a class="product-quicview" href="product-details.html"></a>
-                                            <span class="pink">-10%</span>
-                                            <div class="product-action">
-                                                <div class="pro-same-action pro-wishlist">
-                                                    <a title="Wishlist" href="#"><i class="pe-7s-like"></i></a>
-                                                </div>
-                                                <div class="pro-same-action pro-cart">
-                                                    <a title="Add To Cart" href="#"><i class="pe-7s-cart"></i> <em>Add to cart</em></a>
-                                                </div>
-                                                <div class="pro-same-action pro-quickview">
-                                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="pe-7s-look"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
+                                         <div class="product-img">
+                                        <div class="box">
+                                          <a href="product-details.html"><img class="default-img" src="assets/images/37193.jpg" alt=""/></a>
+                                          <span class="pink">-10%</span>
+                                          <div class="box-content">
+                                               <div class="inner-content">
+                                                  <ul class="icon" id="tootltip">
+                                                      <li><a href="#"><i class="fa fa-heart" data-toggle="tooltip" title="Add to Whishlist"></i></a></li>
+
+                                                      <li><a href="#"><i class="fa fa-cart-plus" data-toggle="tooltip" title="Add to Cart"></i></a></li>
+                                                  </ul>
+                                              </div>
+                                          </div>
+                                      </div>
+                                    </div>
+
                                         <div class="product-content text-center">
                                             <h3><a href="product-details.html"><b>37193</b></a></h3>
                                             <h3><a href="product-details.html">Wood Flamingo Wall Plaque</a></h3>
@@ -1442,6 +1440,11 @@ jQuery(document).ready(function(){
     jQuery('#SideFilterHideShow').on('click', function(event) {
         jQuery('#SideFilters').toggle('show');
     });
+});
+</script>
+<script>
+$(document).ready(function() {
+  $('#tooltip').tooltip();
 });
 </script>
 </body>
