@@ -1,0 +1,124 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Homeful Gifts</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    
+    <!-- CSS
+	============================================ -->
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="assets/css/icons.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Modernizer JS -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+
+<div class="login-register-area pt-20 pb-30">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 ml-auto mr-auto">
+				<div class="login-logo text-center mb-30">
+					<img src="assets/img/logo/logo-3.png" class="img-responsive">
+				</div>
+                <div class="login-register-wrapper">
+                   
+                        
+                            <div class="login-form-container" id="login">
+                                <div class="login-register-form">
+									<h3 class="pb-10 title-2 mb-20">Login</h3>
+                                    <form action="#" method="post">
+                                        <input type="text" name="user-name" placeholder="Username">
+                                        <input type="password" name="user-password" placeholder="Password">
+                                        <div class="button-box">
+                                            <div class="login-toggle-btn  make-default">
+                                               <!--  <input type="checkbox">
+                                                <label>Remember me</label> -->
+												
+												<label class="active">
+                            <input type="checkbox" name="email1" checked=""><i class="fa fa-square-o"></i><i class="fa fa-check-square-o"></i> <span>&nbsp;Remember me</span>
+                          </label>
+                                                <a href="forgot.html" class="">Forgot Password?</a>
+                                            </div>
+                                            <button type="submit" class="login-btn"><span>Login</span></button>
+											<a href="register.html" class="pull-right guest-link guest-btn">New to Homeful Gifts?</a>
+                                        </div>
+										<p class="pt-20 login-con">By continuing, you agree to Homeful Gifts <span><a href="#" class="cust-link">Terms of Use</a></span> and <span><a href="#" class="cust-link">Privacy policy</a></span>.</p>
+                                    </form>
+                                </div>
+                            </div>
+							
+							
+							<div id="guest">
+								<div class="login-form-container">
+									<div class="login-register-form">
+										<form action="#" method="post">
+											<input type="text" name="user-name" placeholder="Username">
+											<input type="text" name="user-password" placeholder="Phone Number">
+											<input name="user-email" placeholder="Email" type="email">
+											<div class="button-box">
+												<button type="submit" class=""><span>Login</span></button>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+                        
+                       
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- JS
+============================================ -->
+
+<!-- jQuery JS -->
+<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+<!-- Popper JS -->
+<script src="assets/js/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Plugins JS -->
+<script src="assets/js/plugins.js"></script>
+<!-- Ajax Mail -->
+<script src="assets/js/ajax-mail.js"></script>
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
+<script>
+$(document).ready(function(){
+$("#login").show();
+$("#guest").hide();
+  $(".guest-btn").click(function(){
+    $("#login").hide();
+	$("#guest").show();
+  });
+
+  
+});
+</script>
+</body>
+
+</html>

@@ -69,14 +69,14 @@
         <div class="header-top-area">
             <div class="row">
                 
-                <div class="col-lg-3 d-none d-lg-block">
-                    <div class="logo-hm9 mb-10  text-left">
+                <div class="col-lg-4 d-none d-lg-block">
+                    <div class="logo-hm9  text-left">
                         <a href="index.html">
                             <img alt="" src="assets/img/logo/logo-4.png">
                         </a>
                     </div>
                 </div>
-				<div class="col-lg-5 col-md-8 col-12">
+				<div class="col-lg-4 col-md-8 col-12">
 				<div class="cart-search search-style">
 					<form action="#">
 					<input type="search" name="search" placeholder="Search...">
@@ -490,14 +490,15 @@
                         <div class="col-lg-12">
                             <div class="cart-total-block">
                                 <div class="cart-coupon-block">
+									<h2 class="coup-title">Have a Coupon Code?</h2>
                                     <div class="discount-code">
-                                <form>
-                                    <input type="text" required="" name="name" placeholder="Have a Coupon Code">
-									<div class="cust-btn">
-                                    <a class="cust-btn" type="submit">Apply Coupon</a>
+										<form>
+											<input type="text" required="" name="name" placeholder="Have a Coupon Code">
+											<div class="cust-btn">
+											<a class="cust-btn" type="submit">Apply Coupon</a>
+											</div>
+										</form>
 									</div>
-                                </form>
-                            </div>
                                 </div>
                                 <div class="cart-total">
                                     <p>Cart Total <span class="pull-right">$28.00</span></p>
@@ -634,7 +635,17 @@
 <script src="assets/js/ajax-mail.js"></script>
 <!-- Main JS -->
 <script src="assets/js/main.js"></script>
+<script>
+$(document).ready(function(){
+$(".discount-code").hide();
+  $(".coup-title").click(function(){
+    $(".discount-code").toggle(500);
+  });
 
+  
+
+});
+</script>
 </body>
 
 </html>
