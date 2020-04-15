@@ -8583,8 +8583,8 @@ input::-moz-focus-inner,
 input::-moz-focus-outer {
   border: 0;
 }
-
-
+.cust-prod-detail {display:flex;}
+.cust-prod-detail a{padding: 15px 30px 15px !important;margin-right:5px;}
 .four-grid-view .product-img > a {display: table-cell;
     height: 229px;
     vertical-align: middle;}

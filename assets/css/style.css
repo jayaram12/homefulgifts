@@ -1467,7 +1467,7 @@ a.default-btn {
   .header-res-padding {
     padding: 20px 0 15px; } }
 .logo-hm9{margin-top:7px;}
-.header-top-area .search-style{margin-top:24px;}
+.header-top-area .search-style{margin-top:20px;}
 .logo {
   margin-top: 32px; text-align:center}
   @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1727,7 +1727,7 @@ a.default-btn {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  margin-top: 33px; }
+  margin-top: 30px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-right-wrap {
       margin-top: 0px;
@@ -3180,9 +3180,12 @@ a.default-btn {
   @media only screen and (min-width: 1900px) and (max-width: 2200px) {
     .slider-height-2 {
       height: 500px; } }
-	  @media only screen and (min-width: 1366px) and (max-width: 1600px) {
+	  @media only screen and (min-width: 1501px) and (max-width: 1600px) {
     .slider-height-2 {
-      height: 350px; } }
+      height: 400px; } }
+	  @media only screen and (min-width: 1366px) and (max-width: 1500px) {
+    .slider-height-2 {
+      height: 380px; } }
   @media only screen and (min-width: 1200px) and (max-width: 1365px) {
     .slider-height-2 {
       height: 350px; } }
@@ -8314,7 +8317,7 @@ background-color: #f9f9f9 !important;}
       display: none; }
   .login-register-wrapper .login-register-tab-list a.active h4 {
     color: #03353e; }
-
+.login-logo img{width:260px;}
 .login-register-wrapper .login-form-container {
   background: transparent none repeat scroll 0 0;
   -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
@@ -8955,8 +8958,22 @@ background-color:#e9f0ff}
     line-height: 1;
     padding: 11px 20px;
     text-align: center;
+	text-transform: uppercase;
+    z-index: 9;
+	display:block;
+}
+.cust-btn-4 > a {
+    background-color: #222f4a;
+    color: #fff !important;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 11px 20px;
+    text-align: center;
+	text-transform: uppercase;
     z-index: 9;
 }
+
 /* checkout review css */
 .checkoutreview{width:100%;}
 .checkoutcontent{border-bottom:1px solid #f5f5f5;overflow:hidden;padding-bottom:10px;margin-top:20px;}
@@ -9210,8 +9227,9 @@ background-color:#e9f0ff}
     display: none;
 }
 .coup-title{font-size:18px;color:#222f4a;font-weight:500;}
-.logo-hm9 img{width:300px;}
+.logo-hm9 img{width:260px;}
 /* order screen css */
+.order-area{border:1px solid #f5f5f5;width:100%;margin-bottom:25px;}
 .order-header{border:1px solid #f5f5f5;width:100%;padding:8px;background-color:#f5f5f5;overflow:hidden;display:flex;}
 .order-h1{width:17%;}
 .order-h2{width:53%;}
@@ -9220,11 +9238,12 @@ background-color:#e9f0ff}
 .order-h1 p{font-size:16px;}
 .order-h2 h3{font-size:20px;font-weight:500;margin-bottom:0px;}
 .order-h2 p{font-size:16px;}
-.orders-block{border:1px solid #f5f5f5;padding:3px;overflow:hidden;display:flex;width:100%;}
+.order-h3 h3{font-size:20px;font-weight:500;margin-bottom:0px;}
+.orders-block{padding:3px;overflow:hidden;display:flex;width:100%;}
 .order-b1{width:20%;}
-.order-b2{width:40%;}
+.order-b2{width:45%;}
 .order-b3{width:10%;}
-.order-b4{width:30%;}
+.order-b4{width:25%;}
 .order-b2 h2{font-size:18px;font-weight:600;margin-bottom:0px;}
 .order-b2 h3{font-size:16px;font-weight:500;margin-bottom:0px;}
 .order-b3 h2{font-size:18px;font-weight:600;margin-bottom:0px;}
@@ -9234,6 +9253,37 @@ background-color:#e9f0ff}
 .order-b4 p{padding-left:25px;}
 .order-b4 a{color:#222f4a;font-weight:600;text-transform:uppercase;}
 .order-b4 a i{padding-right:10px;}
-.return-info{border:1px solid #f5f5f5;padding:10px;width:100%;}
+.return-info{border-top:1px solid #f5f5f5;padding:10px;width:100%}
 .return-info h2{font-size:18px;color:green;}
 .return-info h2 small{color:#000;}
+/* Checkout Page CSS NEW  15-04-2020*/
+.checkout-area .container-fluid {padding:20px 50px;}
+.active-shadow{
+	box-shadow: 0 0 2px rgba(0,0,0,0.6);
+-moz-box-shadow: 0 0 2px rgba(0,0,0,0.6);
+-webkit-box-shadow: 0 0 2px rgba(0,0,0,0.6);
+-o-box-shadow: 0 0 2px rgba(0,0,0,0.6);
+}
+.overflow-hidden {overflow:hidden;}
+.address-area .option-radio {margin-bottom:0;}
+.address-area h3 {margin-top:5px;}
+.cust-icon{
+
+    background-color: #222f4a;
+    color: #fff;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+.cust-icon.edit {padding:4px 8px 4px 9px;}
+.cust-icon.delete {padding:4px 10px 4px 10px;}
+
+.address-sub-title h4{font-size:16px;font-weight:600;color:#000;}
+.address-area{border:2px solid #f5f5f5;overflow:hidden;min-height:370px}
+.add-address{border:2px dashed #222f4a;overflow:hidden;min-height:370px; --dash-size: 8px;
+    --gap-size: 8px; text-align:center; padding:140px 0; color:#222f4a;}
+
+.add-address i {font-size:60px;}
+.add-address h4 {font-size:24px;}
+.address-title label span {float: right;
+margin-top: 4px;
+font-size: 11px; }
