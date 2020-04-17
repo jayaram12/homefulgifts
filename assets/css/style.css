@@ -2559,7 +2559,7 @@ a.default-btn {
   color: #353535;
   height: 100vh;
   overflow-y: auto;
-  padding: 130px 35px 40px;
+  padding: 60px 35px 40px;
   position: fixed;
   left: 0;
   top: 0;
@@ -2586,10 +2586,10 @@ a.default-btn {
     border: medium none;
     color: #000;
     cursor: pointer;
-    font-size: 50px;
+    font-size: 32px;
     padding: 0;
     position: absolute;
-    left: 20px;
+    right: 20px;
     top: 20px;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -9460,3 +9460,25 @@ figure.effect-lexi:hover p {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
+/* filter css */
+.filter-btn {right:5px; top:5px; background:transparent; color:#222f4a; border:none; font-size:20px; position:absolute;}
+.sidebar-widget input {height:40px;}
+.sidebar-widget label {padding-bottom:0;}
+.recency li {padding-bottom:0px !important;}
+.recency li span {font-size:16px;}
+.sidebar-widget-list label input[type="checkbox"] ~ i.fa.fa-square-o{
+      color: #c8c8c8;    display: inline; font-size:18px;
+  }
+  .sidebar-widget-list label input[type="checkbox"] ~ i.fa.fa-check-square-o{
+      display: none;
+  }
+  .sidebar-widget-list label input[type="checkbox"]:checked ~ i.fa.fa-square-o{
+      display: none;
+  }
+  .sidebar-widget-list label input[type="checkbox"]:checked ~ i.fa.fa-check-square-o{
+      color: #03353e;    display: inline; font-size:22px;
+  }
+  .sidebar-widget-list label:hover input[type="checkbox"] ~ i.fa {
+  color: #03353e;
+  }
+  .recency input{display:none !important;}
