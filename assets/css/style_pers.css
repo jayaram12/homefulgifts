@@ -9013,3 +9013,4 @@ input[type=number]::-webkit-outer-spin-button {
 }
 input:focus {outline:0;}
 .recommended_txt {font-size:10px !important;}
+.upload-image a{background-color:#222f4a; color:#fff;}

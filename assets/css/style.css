@@ -3173,13 +3173,22 @@ a.default-btn {
 
 /* home 3 */
 .slider-height-2 {
-  height: 350px; }
+  height: 400px; }
   @media only screen and (min-width: 2201px) and (max-width: 2600px) {
     .slider-height-2 {
       height: 630px; } }
   @media only screen and (min-width: 1900px) and (max-width: 2200px) {
     .slider-height-2 {
       height: 500px; } }
+	  @media only screen and (min-width: 1801px) and (max-width: 1899px) {
+    .slider-height-2 {
+      height: 460px; } }
+	  @media only screen and (min-width: 1701px) and (max-width: 1800px) {
+    .slider-height-2 {
+      height: 440px; } }
+	  @media only screen and (min-width: 1601px) and (max-width: 1700px) {
+    .slider-height-2 {
+      height: 420px; } }
 	  @media only screen and (min-width: 1501px) and (max-width: 1600px) {
     .slider-height-2 {
       height: 400px; } }
@@ -8320,8 +8329,8 @@ background-color: #f9f9f9 !important;}
 .login-logo img{width:260px;}
 .login-register-wrapper .login-form-container {
   background: transparent none repeat scroll 0 0;
-  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
   padding: 40px 60px;
   text-align: left; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -9436,7 +9445,8 @@ figure.effect-lexi h2 {
 
 figure.effect-lexi p {
 	    color: #fff;
-    font-size: 16px;
+    font-size: 19px;
+	font-weight:700;
 	position: absolute;
 	right: 0;
 	bottom: 25px;
@@ -9482,3 +9492,4 @@ figure.effect-lexi:hover p {
   color: #03353e;
   }
   .recency input{display:none !important;}
+ .upload-image a{background-color:#222f4a; color:#fff;}
