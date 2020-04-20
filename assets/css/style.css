@@ -1326,7 +1326,7 @@ textarea:focus {
   background-color: #f0e0ff; }
 
 .bg-gray {
-  background-color: #272424; }
+  background-color: #222f4a; }
 
 .bg-gray-2 {
   background-color: #f6f6f6; }
@@ -7577,8 +7577,7 @@ background-color: #f9f9f9 !important;}
         display: inline-block;
         height: 40px;
         padding: 0;
-        position: relative;
-        width: 110px; }
+        position: relative;}
         .cart-table-content table tbody > tr td.product-quantity .cart-plus-minus .qtybutton {
           color: #333;
           cursor: pointer;
@@ -8640,7 +8639,7 @@ background-color: #f9f9f9 !important;}
 
 /*------- 6. Product style  --------*/
 .product-area {
-  position: relative; }
+  position: relative; overflow:hidden;}
 
 .product-tab-list {
   -webkit-box-pack: center;

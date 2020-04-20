@@ -368,10 +368,10 @@
 					<a href="#" class="clickable-mainmenu-active" id="SideFilterHideShow">
                           <i class="fa fa-filter"></i>
                       </a>
-							<a class="active" href="#shop-1" data-toggle="tab">
+							<a class="active" href="#shop-1" id="shop-1" data-toggle="tab">
 								<i class="fa fa-table"></i>
 							</a>
-							<a href="#shop-2" data-toggle="tab" class="">
+							<a href="#shop-2" id="shop-2" data-toggle="tab" class="">
 								<i class="fa fa-list-ul"></i>
 							</a>
 					</div>
@@ -387,6 +387,19 @@
                 <div class="shop-bottom-area">
                     <div class="tab-content jump">
                         <div id="shop-1" class="tab-pane active">
+                          <!-- <div class="row">
+                            <div class="select-shoing-wrap col-xl-12">
+                                <div class="shop-select pull-left">
+                                    <select>
+                                        <option value="">Sort by newness</option>
+                                        <option value="">A to Z</option>
+                                        <option value=""> Z to A</option>
+                                        <option value="">In stock</option>
+                                    </select>
+                                </div>
+                                <div class="pull-right"><p>Showing 1–7 of 20 result</p></div>
+                            </div>
+                          </div> -->
                             <div class="row">
 							<div class="col-xl-3 col-md-4 col-lg-3 col-sm-4 nopadding-3">
                                     <div class="product-wrap mb-25 scroll-zoom">
@@ -799,17 +812,7 @@
                         </div>
                     </div>
 					<div class="shop-top-bar pag-nav-mrg">
-                    <div class="select-shoing-wrap">
-                        <div class="shop-select">
-                            <select>
-                                <option value="">Sort by newness</option>
-                                <option value="">A to Z</option>
-                                <option value=""> Z to A</option>
-                                <option value="">In stock</option>
-                            </select>
-                        </div>
-                        <p>Showing 1–12 of 20 result</p>
-                    </div>
+
 					<div class="pro-pagination-style text-right">
                         <ul>
                             <li><a class="prev" href="#"><i class="fa fa-angle-double-left"></i> Previous</a></li>
@@ -972,7 +975,7 @@
                             <img alt="" src="assets/img/logo/logo-4.png">
                         </a>
                     </div>
-                    <p>© 2019 <a href="#">Flone</a>.<br> All Rights Reserved</p>
+                    <p>© 2019 <a href="#">Homeful Gifts</a>.<br> All Rights Reserved</p>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-4">
@@ -1281,6 +1284,19 @@
 <script src="assets/js/ajax-mail.js"></script>
 <!-- Main JS -->
 <script src="assets/js/main.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#shop-2").hide();
+        $("#shop-1").click(function(){
+          $("#shop-2").show();
+          $("#shop-1").hide();
+        });
+        $("#shop-2").click(function(){
+          $("#shop-1").show();
+          $("#shop-2").hide();
+        });
+    });
+</script>
 
 </body>
 

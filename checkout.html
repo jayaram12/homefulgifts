@@ -20,6 +20,7 @@
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="assets/css/plugins.css">
     <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style_pers.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Modernizer JS -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
@@ -413,6 +414,12 @@
                                 <input type="text">
                             </div>
                         </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="billing-info mb-20">
+                                <label>Phone</label>
+                                <input type="text">
+                            </div>
+                        </div>
 
                         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <div class="billing-info mb-20">
@@ -469,12 +476,7 @@
                                 <input type="text">
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="billing-info mb-20">
-                                <label>Phone</label>
-                                <input type="text">
-                            </div>
-                        </div>
+
 
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 make-default">
                           <label class="btn active">
@@ -496,189 +498,149 @@
 			</div>
 			</div>
         </div>
-		<div class="row mt-10">
-			<div class="col-lg-4 address-add-btn">
-				<a href="#" class=""><div class="add-address mb-40">
-            <i class="fa fa-plus"></i></br>
-            <h4>Add New Address</h4>
-				</div></a>
-			</div>
 
-			<div class="col-lg-4">
-				<div class="address-area mb-40 active-shadow">
+    <div class="row">
+      <div class="container">
+            <div class="col-lg-7 pull-left">
+                <div class="your-order-area payment-area address-info">
+                  <div class="address-title">
+                    <h3 class="title-1">Ship To</h3>
+                  </div>
+                        <div class="payment-options">
+                          <div class="cards-list">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td width="10%">
+                                          <label>
+                                            <input type="radio" class="option-input radio" name="example" checked/>
+                                          </label>
+                                        </td>
+                                        <td width="90%">
+                                          <div class="address-name overflow-hidden">
+                                            <h4 class="pull-left">Donell <span class="recommended_txt">&nbsp;&nbsp;(Default Address)</span></h4>
 
-					<div class="address-title">
-            <div class="col-lg-12 nopadding overflow-hidden pt-10">
-              <div class="pull-left">
-                <label>
-                  <input type="radio" class="option-input radio" name="example" checked />
-                </label>
-              </div>
-              <div class="pull-right">
-                <span class="pull-right cust-icon delete"><i class="fa fa-trash"></i></span>
-                <span class="pull-right cust-icon edit"><i class="fa fa-pencil-square-o"></i></span>
-              </div>
-            </div>
-            <div class="col-lg-12 nopadding overflow-hidden">
-                <h3 class="title-1">Default Address</h3>
-            </div>
+                                          </div>
 
-					</div>
-					<div class="">
-						<div class="address-sub-title">
-							<h4>Donell</h4>
-						</div>
-						<div class="addres-content">
-							<div class="add-icon">
-								<i class="fa fa-map-marker"></i>
-							</div>
-							<div class="add-text">
-								<p>PO Box 1455073 Ann Arbor Rd Dundee, MI 48131</p>
-							</div>
-						</div>
-						<div class="addres-content">
-							<div class="add-icon">
-								<i class="fa fa-phone"></i>
-							</div>
-							<div class="add-text">
-								<p>8340-345-4455 </p>
-							</div>
-						</div>
-						<div class="addres-content mb-20">
-							<div class="add-icon">
-								<i class="fa fa-envelope"></i>
-							</div>
-							<div class="add-text">
-								<p>donell@yahoo.com</p>
-							</div>
-						</div>
-						<div class="cust-btn-4 mt-30 text-center">
-							<a href="">Deliver to this address</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4">
-				<div class="address-area mb-40">
-          <div class="address-title">
-            <div class="col-lg-12 nopadding overflow-hidden pt-10">
-              <div class="pull-left">
-                <label>
-                  <input type="radio" class="option-input radio" name="example" />
-                  <span>(Make this default address)</span>
-                </label>
-              </div>
-              <div class="pull-right">
-                <span class="pull-right cust-icon delete"><i class="fa fa-trash"></i></span>
-                <span class="pull-right cust-icon edit"><i class="fa fa-pencil-square-o"></i></span>
-              </div>
-            </div>
-            <div class="col-lg-12 nopadding overflow-hidden">
-                <h3 class="title-1">Address-1</h3>
-            </div>
+                                            <div class="addres-content">
+                                							<div class="add-icon">
+                                								<i class="fa fa-map-marker"></i>
+                                							</div>
+                                							<div class="add-text">
+                                								<p>PO Box 1455073 Ann Arbor Rd Dundee, MI 48131</p>
+                                							</div>
+                                						</div>
+                                            <div class="addres-content">
+                                							<div class="add-icon">
+                                								<i class="fa fa-phone"></i>
+                                							</div>
+                                							<div class="add-text">
+                                								<p>8340-345-4455 </p>
+                                							</div>
+                                						</div>
+                                            <div class="addres-content">
+                                							<div class="add-icon">
+                                								<i class="fa fa-envelope"></i>
+                                							</div>
+                                							<div class="add-text">
+                                								<p>donell@yahoo.com</p>
+                                							</div>
+                                						</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="10%">
+                                          <label>
+                                            <input type="radio" class="option-input radio" name="example"/>
+                                          </label>
+                                        </td>
+                                        <td width="90%">
+                                          <div class="address-name overflow-hidden">
+                                            <h4 class="pull-left">Sarah <span class="recommended_txt">&nbsp;&nbsp;(Office)</span></h4>
+                                            
+                                          </div>
 
-					</div>
-					<div class="address-sub-title">
-						<h4>Donell</h4>
-					</div>
-					<div class="addres-content">
-						<div class="add-icon">
-							<i class="fa fa-map-marker"></i>
-						</div>
-						<div class="add-text">
-							<p>PO Box 1455073 Ann Arbor Rd Dundee, MI 48131</p>
-						</div>
-					</div>
-					<div class="addres-content">
-						<div class="add-icon">
-							<i class="fa fa-phone"></i>
-						</div>
-						<div class="add-text">
-							<p>8340-345-4455 </p>
-						</div>
-					</div>
-					<div class="addres-content mb-20">
-						<div class="add-icon">
-							<i class="fa fa-envelope"></i>
-						</div>
-						<div class="add-text">
-							<p>donell@yahoo.com</p>
-						</div>
-					</div>
-					<div class="cust-btn-4 mt-30 text-center">
-							<a href="">Deliver to this address</a>
-						</div>
-				</div>
-			</div>
-			<div class="col-lg-4">
-				<div class="address-area mb-40">
-          <div class="address-title">
-            <div class="col-lg-12 nopadding overflow-hidden pt-10">
-              <div class="pull-left">
-                <label>
-                  <input type="radio" class="option-input radio" name="example" />
-                  <span>(Make this default address)</span>
-                </label>
-              </div>
-              <div class="pull-right">
-                <span class="pull-right cust-icon delete"><i class="fa fa-trash"></i></span>
-                <span class="pull-right cust-icon edit"><i class="fa fa-pencil-square-o"></i></span>
-              </div>
-            </div>
-            <div class="col-lg-12 nopadding overflow-hidden">
-                <h3 class="title-1">Address-2</h3>
-            </div>
+                                            <div class="addres-content">
+                                							<div class="add-icon">
+                                								<i class="fa fa-map-marker"></i>
+                                							</div>
+                                							<div class="add-text">
+                                								<p>PO Box 33256 Ann Arbor Rd Dundee, MI 48131</p>
+                                							</div>
+                                						</div>
+                                            <div class="addres-content">
+                                							<div class="add-icon">
+                                								<i class="fa fa-phone"></i>
+                                							</div>
+                                							<div class="add-text">
+                                								<p>8340-345-4455 </p>
+                                							</div>
+                                						</div>
+                                            <div class="addres-content">
+                                							<div class="add-icon">
+                                								<i class="fa fa-envelope"></i>
+                                							</div>
+                                							<div class="add-text">
+                                								<p>donell@yahoo.com</p>
+                                							</div>
+                                						</div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
 
-					</div>
-					<div class="address-sub-title">
-						<h4>Donell</h4>
-					</div>
-					<div class="addres-content">
-						<div class="add-icon">
-							<i class="fa fa-map-marker"></i>
-						</div>
-						<div class="add-text">
-							<p>PO Box 1455073 Ann Arbor Rd Dundee, MI 48131</p>
-						</div>
-					</div>
-					<div class="addres-content">
-						<div class="add-icon">
-							<i class="fa fa-phone"></i>
-						</div>
-						<div class="add-text">
-							<p>8340-345-4455 </p>
-						</div>
-					</div>
-					<div class="addres-content mb-20">
-						<div class="add-icon">
-							<i class="fa fa-envelope"></i>
-						</div>
-						<div class="add-text">
-							<p>donell@yahoo.com</p>
-						</div>
-					</div>
-					<div class="cust-btn-4 mt-30 text-center">
-							<a href="">Deliver to this address</a>
-						</div>
-				</div>
-			</div>
-			<div class="col-lg-12">
-				<div class="bt">
-				<div class="cust-btn-2 address-add-btn pull-right mt-20 mb-10">
-          <a href="payment_new.html" class="#billing-info-wrap" type="button">Proceed to pay</a>
-			</div>
-				</div>
-			</div>
-			<!-- <div class="col-lg-4">
-				<div class="address-add mb-40">
-					<div class="address-title">
-						<h3>Add New Address</h3>
-					</div>
-					<img src="assets/images/plus.png">
-				</div>
-			</div> -->
-		</div>
+                          </div>
+                        </div>
+            </div>
+          </div>
+            <div class="col-lg-5 pull-left">
+                <div class="your-order-area">
+                  <div class="address-title">
+                    <h3 class="title-1">Order Summery</h3>
+                  </div>
+                    <div class="your-order-wrap gray-bg-4">
+                        <div class="your-order-product-info">
+                          <table>
+                              <thead>
+                                  <tr>
+                                      <th width="270">Product</th>
+                                      <th width="90">Qty</th>
+                                      <th>Price</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <td><span class="order-middle-left">Stoneware Pressed Floral</span></td>
+                                      <td><span class="order-middle-left text-center">1</span></td>
+                                      <td><span class="order-price">$10 </span></td>
+                                  </tr>
+                                  <tr>
+                                      <td><span class="order-middle-left">Felt Baskets, 3 pcs/set</span></td>
+                                      <td><span class="order-middle-left text-center">1</span></td>
+                                      <td><span class="order-price">$12 </span></td>
+                                  </tr>
+                                  <tr>
+                                      <td class="order-total" width="270">Shipping Charges</td>
+                                      <td></td>
+                                      <td class="order-total">$5.00</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="order-total"><b>Total</b></td>
+                                      <td width="90"></td>
+                                      <td class="order-total"><b>$27.00</b></td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                        </div>
 
+                    </div>
+                    <div class="Place-order mt-25">
+                        <a href="payment_new.html" class="#billing-info-wrap" type="button">Proceed to pay</a>
+                    </div>
+                </div>
+            </div>
+      </div>
+    </div>
 
     </div>
 </div>

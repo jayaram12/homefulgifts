@@ -404,11 +404,17 @@
 </div>
 <div class="shop-area pt-20 pb-50">
     <div class="container">
-        <div class="row">
+      <div class="own-image-intro" id="UploadOwnImage">
+        <h3 class="text-center">Upload whatever image you want and <span>make magic</span> with our <span>personalization tools</span>. we will print it in your <span>desired size.</span> To Personalize <span>Click on below icon.</span></br>
+            <a href="#"><img src="assets/images/uploadimage.png" class="center=block mt-10"/></a>
+        </h3>
+
+      </div>
+        <div class="row" id="PersonalizeOwnImage">
             <div class="col-xl-6 col-lg-6 col-md-12">
               <h3>IMG2619879873</h3>
               <div class="product-details-img">
-                  <div class="tab-content jump">
+                    <div class="tab-content jump">
 
                       <div id="shop-details-1" class="tab-pane active large-img-style">
                           <img src="assets/images/bg.jpg" alt="">
@@ -504,8 +510,8 @@
 
                 </div>
             </div>
-        </div>
-        <div class="row choosebg" style="margin-top:5px;">
+
+        <div class="choosebg" style="margin-top:5px;">
           <div class="basic_to_advanced col-md-12 col-xl-12 pb-20" id="BasicMode">
             <!-- <div class="col-xl-4 col-lg-4 col-md-12 pull-left">
               <label>
@@ -547,12 +553,13 @@
                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco</p> -->
 
             </div>
-            <div class="choosebg">
-              <div class="pro-details-quality">
+            <div class="choosebg col-xl-12" style="margin-top:10px;">
+              <div class="pro-details-quality pull-right">
                   <div class="pro-details-cart btn-hover">
-                      <a href="personalization_preview.html">Preview Personalization & Add to Cart</a>
+                      <a href="personalization_preview.html" class="text-right">Preview Personalization & Add to Cart</a>
                   </div>
               </div>
+            </div>
             </div>
           </div>
         </div>
@@ -1067,6 +1074,15 @@ var rangeSlider = function(){
 };
 
 rangeSlider();
+</script>
+<script>
+    $(document).ready(function(){
+      $("#PersonalizeOwnImage").hide();
+        $("#UploadOwnImage").click(function(){
+            $("#PersonalizeOwnImage").show('slow');
+            $("#UploadOwnImage").hide('slow');
+        });
+    });
 </script>
 </body>
 
