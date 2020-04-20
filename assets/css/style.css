@@ -2562,7 +2562,7 @@ a.default-btn {
   padding: 60px 35px 40px;
   position: fixed;
   left: 0;
-  top: 0;
+  top: 77px;
   -webkit-transform: translateX(-110%);
   -ms-transform: translateX(-110%);
   transform: translateX(-110%);
@@ -7529,7 +7529,7 @@ background-color: #f9f9f9 !important;}
     right: 11px;
     top: 5px;
 }
-
+.mrg-top-7{margin-top:7px;}
 .cart-table-content table {
   border: 1px solid #ebebeb; }
   .cart-table-content table thead > tr {
@@ -8783,7 +8783,7 @@ background-color: #f9f9f9 !important;}
     .product-details-content .pro-details-quality .pro-details-cart a {background-color:#3a4660}
 .product-details-content .pro-details-desc {
     margin: 20px 0 20px;
-    border-bottom: 1px solid #e5e5e5;
+    /* border-bottom: 1px solid #e5e5e5; */
     padding: 0 0 37px;
 }
 .pro-details-desc ul{list-style:outside;padding-left:15px !important}
@@ -9492,3 +9492,53 @@ figure.effect-lexi:hover p {
   }
   .recency input{display:none !important;}
  .upload-image a{background-color:#222f4a; color:#fff;}
+ .frequently .owl-prev{    position: absolute;
+    z-index: 9;
+    left: -50px;
+    top: 30%;
+    font-size: 37px;
+    color: #03353e;}
+.frequently .owl-next{
+    position: absolute;
+    z-index: 9;
+    right: -50px;
+    top: 30%;
+    font-size: 37px;
+    color: #03353e;
+}
+.prod-detail-side .sidebar-blog-content h4 {
+    width: 120px !important;
+}
+.cust-btn-4 button {padding:5px 10px; border:none; color:#fff; background-color:#222f4a;}
+.address-info .address-name h4 {font-weight:600;}
+.address-info .table tr td{border-top:none;}
+.own-image-intro {overflow:hidden;}
+.own-image-intro h3 {font-size:24px; line-height:44px;}
+.own-image-intro h3 span {text-transform:uppercase; font-weight:700; }
+.own-image-intro{border:1px solid #f5f5f5; padding:30px;}
+.own-image-intro img {width:120px;}
+.shop-ocation figure {
+    width: 32.2% !important;
+	max-height:400px !important;
+}
+@media (min-width: 1200px){.container {max-width: 1250px;}}
+.filter-grp{
+    float: left;
+    width: 89%;
+}
+.total-freq{
+    text-align: center;
+}
+.total-freq p{font-size:20px;font-weight:600;margin-top:100px;}
+.freqntly-area{display:flex;margin-bottom:50px}
+.block-1{width:20%;border:1px solid #f5f5f5;}
+.block-2{width:5%;}
+.freq-img{text-align:center;}
+.freq-img img{width:200px;}
+.freq-text {text-align:center;}
+.freq-text h2{font-size:18px;margin-bottom:0px;}
+.freq-text h3{font-size:16px;}
+.freq-text p{font-size:16px;padding-bottom:5px;}
+.plus-block{position:relative;}
+.plus-block i{font-size:18px;position:absolute;top:122px;left:42%;}
+.block-3{width:20%;}

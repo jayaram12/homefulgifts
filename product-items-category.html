@@ -348,8 +348,8 @@
 <div class="breadcrumb-area pt-10 pb-10 bg-gray-3">
     <div class="container">
 		<div class="row">
-			<div class="col-lg-11 nopadding">
-				<div class="breadcrumb-content text-left">
+			<div class="col-lg-8 nopadding">
+				<div class="breadcrumb-content text-left mrg-top-7">
 					<ul>
 						<li>
 							<a href="index.html">Home</a>
@@ -361,21 +361,39 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-lg-1 nopadding">
-				<div class="shop-top-bar pull-right">
+			<div class="col-lg-4 nopadding">
+			<div class="form-group row mb-0 filter-grp">
+    <label for="inputPassword" class="col-sm-2 col-form-label">Sort</label>
+    <div class="col-sm-10">
+      <select class="form-control" id="exampleFormControlSelect1">
+      <option>Best Seller</option>
+      <option>Price (Low to High)</option>
+      <option>Price (High to Low)</option>
+      <option>Catalog Page</option>
+      <option>Item# (Low to High)</option>
+      <option>Item# (High to Low)</option>
+      <option>Newest Items</option>
+      <option>Available Date (Low to High)</option>
+      <option>Available Date (High to Low)</option>
+    </select>
+    </div>
+	
+  </div>
+  <div class="shop-top-bar pull-right mrg-top-7">
 					<div class="shop-tab nav">
 					<a href="#" class="clickable-mainmenu-active" id="SideFilterHideShow">
                           <i class="fa fa-filter"></i>
                       </a>
-							<a class="active" href="#shop-1" data-toggle="tab">
+							<a  id="shop-11-btn">
 								<i class="fa fa-table"></i>
 							</a>
-							<a href="#shop-2" data-toggle="tab" class="">
+							<a  class="" id="shop-21-btn">
 								<i class="fa fa-list-ul"></i>
 							</a>
 					</div>
 				</div>
 			</div>
+			
 		</div>
 	</div>
 </div>
@@ -385,7 +403,7 @@
             <div class="col-lg-9 col-lgc-9 nopadding">
                 <div class="shop-bottom-area">
                     <div class="tab-content jump">
-                        <div id="shop-1" class="tab-pane active">
+                        <div id="shop-11" class="tab-pane active">
                             <div class="row">
                                 <div class="col-xl-3 col-md-4 col-lg-3 col-sm-4 nopadding-3">
                                     <div class="product-wrap mb-25 scroll-zoom">
@@ -975,7 +993,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="shop-2" class="tab-pane">
+                        <div id="shop-21">
                             <div class="shop-list-wrap mb-30">
                                 <div class="row">
                                     <div class="col-xl-4 col-lg-5 col-md-5 col-sm-6">
@@ -1603,7 +1621,26 @@
 <script src="assets/js/ajax-mail.js"></script>
 <!-- Main JS -->
 <script src="assets/js/main.js"></script>
-
+<script>
+    $(document).ready(function(){
+      $("#shop-21").hide();
+      $("#shop-11").show();
+	  $("#shop-21-btn").show();
+	  $("#shop-11-btn").hide();
+        $("#shop-11-btn").click(function(){
+            $("#shop-21").hide('slow');
+            $("#shop-11").show('slow');
+			$("#shop-11-btn").hide();
+			$("#shop-21-btn").show();
+        });
+        $("#shop-21-btn").click(function(){
+            $("#shop-21").show('slow');
+            $("#shop-11").hide('slow');
+			$("#shop-11-btn").show();
+			$("#shop-21-btn").hide();
+        });
+    });
+</script>
 </body>
 
 </html>

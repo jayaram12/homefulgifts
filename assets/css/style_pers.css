@@ -9014,12 +9014,3 @@ input[type=number]::-webkit-outer-spin-button {
 input:focus {outline:0;}
 .recommended_txt {font-size:10px !important;}
 .upload-image a{background-color:#222f4a; color:#fff;}
-
-.cust-btn-4 button {padding:5px 10px; border:none; color:#fff; background-color:#222f4a;}
-.address-info .address-name h4 {font-weight:600;}
-.address-info .table tr td{border-top:none;}
-.own-image-intro {overflow:hidden;}
-.own-image-intro h3 {font-size:24px; line-height:44px;}
-.own-image-intro h3 span {text-transform:uppercase; font-weight:700; }
-.own-image-intro{border:1px solid #f5f5f5; padding:30px;}
-.own-image-intro img {width:120px;}
