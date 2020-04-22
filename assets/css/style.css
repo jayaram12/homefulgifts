@@ -4798,7 +4798,7 @@ a.default-btn {
 
 /* product hm3 */
 .section-padding-1 .container-fluid {
-  padding: 0 70px; }
+  padding: 0 8px; }
   @media only screen and (min-width: 1200px) and (max-width: 1365px) {
     .section-padding-1 .container-fluid {
       padding: 0 15px; } }
@@ -6629,7 +6629,7 @@ a.default-btn {
   .single-sidebar-blog .sidebar-blog-content h4 {
     font-size: 15px;
     margin: 5px 0 0;
-	width: 150px;
+	width: 125px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;}
@@ -9201,15 +9201,20 @@ background-color:#e9f0ff}
 -o-box-shadow: 0 0 5px rgba(0,0,0,0.6);
 }
 @media (min-width: 992px){
+	.col-lgc-2 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 17%;
+    max-width: 17% !important;
+}
 .col-lgc-3 {
     -ms-flex: 0 0 25%;
-    flex: 0 0 20%;
-    max-width: 20% !important;
+    flex: 0 0 17%;
+    max-width: 17% !important;
 }
 .col-lgc-9 {
     -ms-flex: 0 0 75%;
-    flex: 0 0 80%;
-    max-width: 80% !important;
+    flex: 0 0 63%;
+    max-width: 63% !important;
 
 }}
 /* @media only screen and (min-width: 1920px) and (max-width: 1919px) {
