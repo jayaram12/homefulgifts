@@ -2562,7 +2562,7 @@ a.default-btn {
   padding: 60px 35px 40px;
   position: fixed;
   left: 0;
-  top: 77px;
+  top: 125px;
   -webkit-transform: translateX(-110%);
   -ms-transform: translateX(-110%);
   transform: translateX(-110%);
@@ -4797,8 +4797,11 @@ a.default-btn {
     color: #3d6882; }
 
 /* product hm3 */
+
 .section-padding-1 .container-fluid {
   padding: 0 8px; }
+  .section-product .container-fluid {
+  padding: 0 70px !important; }
   @media only screen and (min-width: 1200px) and (max-width: 1365px) {
     .section-padding-1 .container-fluid {
       padding: 0 15px; } }
@@ -6925,10 +6928,19 @@ a.default-btn {
   z-index: 9;
   }
   .product-details-img .shop-cust-tab{
-	  left: 16%;
-    bottom: -90px;
+	  left: 8%;
+    bottom: -72px;
     position: absolute;
   }
+  .product-details-img .tab-content{    display: block;
+    height: 600px;
+    width: 100%;
+    line-height: 600px;
+    text-align: center;
+    overflow: hidden;
+    border: none;
+    box-shadow: none;
+    position: relative;}
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .product-details-img .shop-details-tab {
       margin-top: -50px; } }
@@ -8713,6 +8725,8 @@ background-color: #f9f9f9 !important;}
 
 /*  Custom CSS  ---------------jayaram-------------*/
 .nopadding{padding-left:0px !important;padding-right:0px !important}
+.nopadleft{padding-left:0px !important}
+.nopadright{padding-right:0px !important}
 .nopadding-3{padding-left:3px !important;padding-right:3px !important}
 
 /*  Custom CSS  ---------------Sulthan-------------*/
@@ -8723,7 +8737,7 @@ background-color: #f9f9f9 !important;}
 .main-menu ul ul li a {color:#272424 !important;}
 .same-language-currency P {MARGIN-TOP:10PX;}
 .product-wrap .product-img span.purple {background-color:#00921f;}
-.breadcrumb-area {background-color:#e9f0ff;}
+.breadcrumb-area {background-color:#e9f0ff;padding-left:17px;padding-right:17px;}
 .product-wrap .product-img {/* background-color:#e9f0ff;     */border: 1px solid #f5f5f5;}
 /* .product-details-img{background-color:#e9f0ff;} */
 .product-details-bg{background-color:#e9f0ff;position:relative;}
@@ -9213,8 +9227,20 @@ background-color:#e9f0ff}
 }
 .col-lgc-9 {
     -ms-flex: 0 0 75%;
-    flex: 0 0 63%;
-    max-width: 63% !important;
+    flex: 0 0 64%;
+    max-width: 64% !important;
+
+}}
+@media (min-width: 992px){
+.col-plgc-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 20%;
+    max-width: 20% !important;
+}
+.col-plgc-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 80%;
+    max-width: 80% !important;
 
 }}
 /* @media only screen and (min-width: 1920px) and (max-width: 1919px) {
@@ -9557,3 +9583,39 @@ figure.effect-lexi:hover p {
 .plus-block{position:relative;}
 .plus-block i{font-size:18px;position:absolute;top:122px;left:42%;}
 .block-3{width:20%;}
+.recommended_txt {font-size:10px !important;}
+.cards-list {
+    padding: 20px;
+    border: 1px solid #f5f5f5;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.address-name{padding-top:4px;}
+.prd-icons {
+    padding: 5px 11px 5px 11px;
+    background-color: #222f4a;
+    color: #fff !important;
+    border-radius: 50px;
+    margin-top: -3px;
+    margin-left: 5px;
+}
+.per-img img{width:100%;height:auto;}
+.bg{background-color:#fbfbfb}
+.sbb{background-color:#fff;}
+.sbbp{background-color:#fbfbfb;}
+.product-details-content{
+    background-color: #fff;
+    padding: 10px;
+    margin-right: 5px !important;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1530px) {
+	.col-cxl-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 32.5% !important;
+    max-width: 34% !important;
+}
+}
+
+@media only screen and (min-width: 1900px) and (max-width: 2600px) {
+	.container {max-width: 1780px !important;}
+}
