@@ -1,0 +1,61 @@
+:root {
+  --main-color: #819783;
+  --second-color: #a9c3ac;
+}
+/* Template css */
+.header-area{
+  background: var(--main-color);
+}
+.cart-search input{
+	background: var(--second-color);
+}
+.card-header {
+  background: var(--main-color);
+}
+#scrollUp{background: var(--main-color);}
+.product-wrap .product-img .product-action > div{background: var(--main-color);}
+.product-wrap .product-img .product-action > div:hover{background: var(--main-color);}
+.title-1{color: var(--main-color);}
+.title-1::before{background: var(--main-color);}
+.section-title-2 h2:before{background: var(--main-color);}
+.main-menu nav ul li:hover{border-bottom: 1px solid var(--main-color);;}
+/* Buttons */
+.product-details-content .pro-details-quality .pro-details-cart a{background: var(--main-color);}
+.cust-btn-4 > a{background: var(--main-color);}
+.header-right-wrap .same-style.cart-wrap .shopping-cart-content .shopping-cart-btn a{border: 2px solid var(--main-color);}
+.btn-hover a::after{background: var(--main-color);}
+.cart-search button{background: var(--main-color);}
+.product-remove a{background: var(--main-color);}
+.cust-btn-2 > a{background: var(--main-color);}
+.prd-icons{background: var(--main-color);}
+.your-order-area .Place-order > a{background: var(--main-color);}
+.your-order-area .Place-order > a:hover{background: var(--main-color);}
+.cart-shiping-update-wrapper .cart-clear > a{background: var(--main-color);}
+.cart-shiping-update-wrapper .cart-clear > a:hover{background: var(--main-color);}
+.header-right-wrap .same-style.header-search .search-content form .button-search{background: var(--main-color);border-color: var(--main-color);}
+.header-right-wrap .same-style.header-search .search-content form .button-search:hover{background: var(--main-color);border-color: var(--main-color);}
+/*End of Buttons */
+figure.effect-lexi{background: linear-gradient(-45deg, var(--main-color) 0%,#fff 100%);}
+.bg-gray{background: var(--main-color);}
+/*End of Template css */
+
+.btn-primary, .btn-outline-primary {
+  border-color: var(--main-color);
+}
+.btn-primary:hover, .btn-outline-primary:hover {
+  border-color: var(--main-color);
+}
+
+.btn-primary {
+  background-color: var(--main-color);
+}
+.btn-primary:hover {
+  background-color: var(--second-color);
+}
+
+.btn-outline-primary {
+  color: var(--main-color);
+}
+.btn-outline-primary:hover {
+  background-color: var(--main-color);
+}
